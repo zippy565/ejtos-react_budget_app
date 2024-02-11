@@ -18,21 +18,25 @@ const App = () => {
                         {
                             /* Add Budget component here */
                                             // Budget component
-                    <div className='col-sm'>
-                        <Budget />
-                    </div>
+                            <div className='col-sm'>
+                                <Budget />
+                            </div>
                         }        
 
                         {
                             /* Add Remaining component here*/
                                              //Remaining component
-                    <div className='col-sm'>
-                        <Remaining />
-                    </div>
+                            <div className='col-sm'>
+                                <Remaining />
+                            </div>
                         }        
 
                         {
                             /* Add ExpenseTotal component here */
+                                             //ExpenseTotal component
+                            <div className='col-sm'>
+                                <ExpenseTotal />
+                            </div>
                         }        
                        
                         {
